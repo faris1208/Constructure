@@ -1,0 +1,2203 @@
+.Constructure-container{
+    width: 100%;
+    margin: 0px auto;
+    /* max-width: 420px; */
+}
+
+.Navbar-container{
+    padding: 30px 20px 180px;
+    width: 100%;
+    /* background: #120D20D6 84%; */
+    background-color: rgba(56,41,53, alpha);
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    background-image: url(../assets/Img/unsplash_d3_cFMe97Ec.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: rgba(0, 0, 0, 0.3); */
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flutterwave-image{
+    width: 100%;
+}
+
+.Menu{
+    font-size: 25px;
+    color: #fff;
+}
+.Menu-two{
+    display: none;
+}
+
+.Innovation{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 70px;
+}
+
+.Innovation-image{
+    width: 3%;
+}
+
+.Innovation h1{
+    font-family: RubikRegular;
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.Innovation-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:20px 30px;
+}
+
+.Innovation-img h3{
+    font-family: RubikRegular;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.Innovation p{
+    font-family: RubikRegular;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.Innovation-btn{
+    background-color: #FFD600;
+    border: none;
+    padding: 10px 22px;
+    font-family: RubikRegular;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 18px;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.Worker-img{
+    display: none;
+}
+
+.Phlox-container{
+    width: 100%;
+    padding: 20px;
+}
+
+.Phlox-img{
+    width: 100%;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.left-image{
+    width: 80%;
+    z-index: -1;
+}
+
+.top-image{
+    width: 80%;
+    position: absolute;
+    bottom: -80px;
+    z-index: 10px;
+    right: 0px;
+}
+
+.Phlox-heading{
+    /* border:  2px solid red; */
+    width: 100%;
+    margin-top: 100px;
+}
+
+.Phlox-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-image{
+    width: 15%;
+}
+
+.Phlox-text h3{
+    font-family: RubikRegular;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.Phlox-head h2{
+    font-family: RubikBold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    margin: 15px 0px 40px;
+}
+
+.Phlox-head p{
+    font-family: RubikRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: justified;
+    
+}
+
+.Phlox-vector{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+    padding: 0px 5px 0px 30px;
+}
+
+.Phlox-vector-image{
+    width: 15%;
+}
+
+.Phlox-vector p{
+    font-family: RubikRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #000;
+}
+
+.Phlox-yellow{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.yellow{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow h3{
+    font-family: RubikBold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFD600;
+}
+
+.yellow p{
+    font-family: RubikRegular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;    
+}
+
+.Experience-container{
+    width: 100%;
+    background-color: #080F31;
+    padding: 60px 20px;
+    
+}
+
+.Experience-text p{
+    font-family: RubikRegular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFD600; 
+    margin-bottom: 20px;   
+}
+
+.Experience-text h2{
+    font-family: RubikRegular;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.Experience-heading{
+    padding: 10px 0px 70px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Experience-head{
+    /* border: 2px solid red; */
+    border-top: 20px solid #212A54;
+    padding: 50px 20px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C1957;
+}
+
+.fourty-image{
+    width: 85%;
+    
+}
+
+.Experience-head h3{
+    font-family: RubikRegular;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    margin: 20px 0px;
+}
+
+.Experience-head p{
+    font-family: RubikRegular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.Member-container{
+    padding: 60px 20px;
+    width: 100%;
+}
+
+.Member-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Member-img p{
+    font-family: RubikRegular;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    margin-top: 5px;
+}
+
+.Member-contents h3{
+    font-family: RubikBold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+    margin: 20px 0px;
+}
+
+.construct{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* .man-text{
+    border: 2px solid greenyellow;
+} */
+
+.man-text p{
+    font-family: RubikRegular;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    margin: 40px 0px 20px;
+}
+
+.man-text h2{
+    font-family: RubikBold;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    /* margin: 0px 0px 20px; */
+}
+
+.Facebook{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.pin-image{
+    width: 1.5%;
+}
+
+.face-image{
+    width: 10%;
+}
+
+.Affordable{
+    width: 100%;
+    height: 220px;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    background-image: url(/src/assets/Img/tractor.jpeg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 40px 20px; */
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid red; */
+}
+
+.Overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(0,0,0, 0.4); */
+    background: #F5F5F57D;
+    padding: 40px 20px;
+}
+
+.Affordable-text p{
+    font-family: RubikRegular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222B56;
+    text-transform: capitalize;
+}
+
+span{
+    font-family: RubikBold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222B56;
+}
+
+.Affordable-img{
+    margin: 20px 0px;
+}
+.wave-image{
+    width: 40%;
+}
+
+.footer-wrapper{
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.flutter{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.flutter-image{
+    width: 25%;
+}
+
+.flutter{
+    margin: 15px 0px;
+}
+
+/* .flutter-Constracture{
+    border: 2px solid green;
+} */
+
+.flutter-Constracture h3{
+    font-family: RubikBold;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222B56;    
+}
+
+.flutter-Constracture p{
+    font-family: RubikRegular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222B56;
+}
+
+.footer-flutter p{
+    font-family: RubikRegular;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #222B56;
+}
+
+.Constracture-facebook{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.grid-image{
+    width: 15%;
+}
+
+.Information-container{
+    /* border: 2px solid red; */
+    margin-top: 60px;
+}
+
+.Information-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid green; */
+}
+
+.Information-image{
+    width: 1.5%;
+}
+
+.Information-link h3{
+    font-family: RubikRegular;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.Information-Users{
+    margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Information-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid blue; */
+}
+
+.one-image{
+    width: 4%;
+}
+
+.Information-img p{
+    font-family: RubikRegular;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222B56;
+}
+
+.Contact-container{
+    /* border: 2px solid red; */
+    margin-top: 60px;
+}
+
+.Contact-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid green; */
+}
+
+.Information-image{
+    width: 1.5%;
+}
+
+.Contact-wrapper h3{
+    font-family: RubikRegular;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.Contact-head{
+    margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Contact-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid blue; */
+}
+
+.one-image{
+    width: 4%;
+}
+
+.Contact-img p{
+    font-family: RubikRegular;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222B56;
+}
+
+.Newsletter-container{
+    /* border: 2px solid red; */
+    margin-top: 60px;
+}
+
+.Newsletter-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid green; */
+}
+
+.Newsletter-wrapper h3{
+    font-family: RubikRegular;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.Newsletter-container p{
+    font-family: RubikRegular;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #000000;
+    margin: 40px 0px 50px;
+}
+
+.Email-input{
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: RubikRegular;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #F0F3FF;
+    border: none;
+    color: #222B5669;
+}
+
+.Last-footer{
+    background: #222B56;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+.Last-footer p{
+    font-family: RubikRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+
+@media (min-width:670px) {
+    .Constructure-container{
+        width: 100%;
+        margin: 0px auto;
+        max-width: 1024px;
+    }
+    
+    .Navbar-container{
+        padding: 30px 20px 0px;
+        width: 100%;
+        /* background: #120D20D6 84%; */
+        background-color: rgba(56,41,53, alpha);
+        /* background-color: rgba(0, 0, 0, 0.9); */
+        background-image: url(../assets/Img/unsplash_d3_cFMe97Ec.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background: rgba(0, 0, 0, 0.3); */
+    }
+    
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .flutterwave-image{
+        width: 100%;
+    }
+
+    .Hamburger{
+        display: none;
+    }
+    
+    .Menu{
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .Menu-two{
+        display: block;
+    }
+
+    .Menu-two ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .Menu-two ul li{
+        list-style: none;
+        color: #fff;
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+
+    
+    .glass{
+        font-size: 20px;
+        margin-top: 8px;
+        margin-right: 15px;
+    }
+
+    .Worker{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    
+    .Innovation{
+        /* border: 2px solid red; */
+        width:50%;
+        margin-top: 70px;
+    }
+    
+    .Innovation-image{
+        width: 3%;
+    }
+    
+    .Innovation h1{
+        font-family: RubikRegular;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .Innovation-img{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding:20px 30px;
+    }
+    
+    .Innovation-img h3{
+        font-family: RubikRegular;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .Innovation p{
+        font-family: RubikRegular;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .Innovation-btn{
+        background-color: #FFD600;
+        border: none;
+        padding: 10px 22px;
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        border-radius: 18px;
+        color: #000000;
+        margin: 20px 0px;
+    }
+
+    .Worker-img{
+        display: block;
+        width: 60%;
+    }
+
+    .Worker-image{
+        width: 100%;
+    }
+    
+    .Phlox-container{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .Phlox-img{
+        width: 100%;
+        position: relative;
+        /* display: flex;
+        justify-content: center; */
+        padding: 40px 30px;
+        /* border: 2px solid red; */
+    }
+    .left-image{
+        width: 70%;
+        z-index: -1;
+    }
+    
+    .top-image{
+        width: 70%;
+        position: absolute;
+        bottom: -80px;
+        z-index: 10px;
+        right: 0px;
+    }
+    
+    .Phlox-heading{
+        /* border:  2px solid red; */
+        width: 100%;
+        margin-top: 180px;
+        padding: 20px;
+    }
+    
+    .Phlox-text{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .right-image{
+        width: 5%;
+    }
+    
+    .Phlox-text h3{
+        font-family: RubikRegular;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    
+    .Phlox-head h2{
+        font-family: RubikBold;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        margin: 15px 0px 40px;
+        width: 60%;
+        text-transform: capitalize;
+    }
+    
+    .Phlox-head p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin: 30px 0px;
+        width: 60%;
+    }
+    
+    .Phlox-vector{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0px;
+        padding: 0px 5px 0px 30px;
+    }
+    
+    .Phlox-vector-image{
+        width: 1%;
+        max-width: 10px;
+    }
+    
+    .Phlox-vector p{
+        font-family: RubikRegular;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        /* text-align: justified; */
+        color: #000;
+    }
+    
+    .Phlox-yellow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0px;
+        margin-top: 20px;
+    }
+    
+    .yellow{
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .yellow h3{
+        font-family: RubikBold;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFD600;
+    }
+    
+    .yellow p{
+        font-family: RubikRegular;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;    
+    }
+    
+    .Experience-container{
+        width: 100%;
+        background-color: #080F31;
+        padding: 80px 20px 60px;
+        
+    }
+
+    .Experience-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Experience-text p{
+        font-family: RubikRegular;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFD600; 
+        margin-bottom: 30px;   
+    }
+    
+    .Experience-text h2{
+        font-family: RubikRegular;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        width: 50%;
+    }
+    
+    .Experience-heading{
+        padding: 10px 0px 70px;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* flex-direction: column; */
+        gap: 40px;
+    }
+    .Experience-head{
+        /* border: 2px solid red; */
+        border-top: 20px solid #212A54;
+        padding: 60px 20px 60px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0C1957;
+    }
+    
+    .fourty-image{
+        width: 85%;
+        
+    }
+    
+    .Experience-head h3{
+        font-family: RubikRegular;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        margin: 20px 0px;
+    }
+    
+    .Experience-head p{
+        font-family: RubikRegular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .Member-container{
+        padding: 60px 20px;
+        width: 100%;
+    }
+    
+    .Member-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .Member-img p{
+        font-family: RubikRegular;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        margin-top: 5px;
+    }
+    
+    .Member-contents h3{
+        font-family: RubikBold;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000;
+        margin: 20px 0px;
+        width: 50%;
+    }
+    
+    .construct{
+        /* border: 2px solid red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* flex-direction: column; */
+        gap: 30px 30px;
+        margin-top: 20px;
+    }
+    
+    /* .man-text{
+        border: 2px solid greenyellow;
+    } */
+    
+    .man-text p{
+        font-family: RubikRegular;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        margin: 40px 0px 20px;
+    }
+    
+    .man-text h2{
+        font-family: RubikBold;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        /* margin: 0px 0px 20px; */
+    }
+    
+    .Facebook{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 20px 0px;
+    }
+    
+    .pin-image{
+        width: 1.5%;
+    }
+    
+    .face-image{
+        width: 10%;
+    }
+    
+    .Affordable{
+        width: 100%;
+        height: 309px;
+        /* background-color: rgba(0, 0, 0, 0.9); */
+        background-image: url(/src/assets/Img/tractor.jpeg);
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* padding: 40px 20px; */
+        position: relative;
+        overflow: hidden;
+        /* border: 2px solid red; */
+    }
+    
+    .Overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* background-color: rgba(0,0,0, 0.4); */
+        background: #F5F5F57D;
+        padding: 40px 20px;
+    }
+    
+    .Affordable-text p{
+        font-family: RubikRegular;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+        text-transform: capitalize;
+        width: 80%;
+    }
+    
+    span{
+        font-family: RubikBold;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+    }
+    
+    .Affordable-img{
+        margin: 50px 0px 20px;
+    }
+    .wave-image{
+        width: 30%;
+    }
+    
+    .footer-wrapper{
+        width: 100%;
+        padding: 70px 20px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 40px;
+    }
+
+    /* .footer-flutter{
+        border: 2px solid green;
+    } */
+    
+    .flutter{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .flutter-image{
+        width: 25%;
+    }
+    
+    .flutter{
+        margin: 0px 0px;
+    }
+    
+    /* .flutter-Constracture{
+        border: 2px solid green;
+    } */
+    
+    .flutter-Constracture h3{
+        font-family: RubikBold;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;    
+    }
+    
+    .flutter-Constracture h6{
+        font-family: RubikRegular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+        margin-top: 2px;
+    }
+    
+    .footer-flutter p{
+        font-family: RubikRegular;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #222B56;
+        margin-top: 30px;
+    }
+    
+    .Constracture-facebook{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .grid-image{
+        width: 15%;
+    }
+    
+    .Information-container{
+        /* border: 2px solid red; */
+        margin-top: 0px;
+    }
+    
+    .Information-link{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+        /* border: 2px solid green; */
+    }
+    
+    .Information-image{
+        width: 1.5%;
+    }
+    
+    .Information-link h3{
+        font-family: RubikRegular;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    
+    .Information-Users{
+        margin: 50px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .Information-img{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        /* border: 2px solid blue; */
+    }
+    
+    .one-image{
+        width: 4%;
+    }
+    
+    .Information-img p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+    }
+    
+    .Contact-container{
+        /* border: 2px solid red; */
+        margin-top: 60px;
+    }
+    
+    .Contact-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        /* border: 2px solid green; */
+    }
+    
+    .Information-image{
+        width: 1.5%;
+    }
+    
+    .Contact-wrapper h3{
+        font-family: RubikRegular;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+    }
+    
+    .Contact-head{
+        margin: 50px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .Contact-img{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        /* border: 2px solid blue; */
+    }
+    
+    .one-image{
+        width: 4%;
+    }
+    
+    .Contact-img p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+    }
+    
+    .Newsletter-container{
+        /* border: 2px solid red; */
+        margin-top: 60px;
+    }
+    
+    .Newsletter-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        /* border: 2px solid green; */
+    }
+    
+    .Newsletter-wrapper h3{
+        font-family: RubikRegular;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+    }
+    
+    .Newsletter-container p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        color: #000000;
+        margin: 40px 0px 50px;
+    }
+    
+    .Email-input{
+        padding: 8px 15px;
+        width: 100%;
+        border-radius: 20px;
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: #F0F3FF;
+        border: none;
+        color: #222B5669;
+    }
+    
+    .Last-footer{
+        background: #222B56;
+        padding: 20px 10px;
+        margin-top: 40px;
+    }
+    
+    .Last-footer p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+@media (min-width:1024px) {
+    .Constructure-container{
+        width: 100%;
+        margin: 0px auto;
+        max-width: 1728px;
+    }
+    
+    .Navbar-container{
+        padding: 30px 40px 0px;
+        width: 100%;
+        /* background: #120D20D6 84%; */
+        background-color: rgba(56,41,53, alpha);
+        /* background-color: rgba(0, 0, 0, 0.9); */
+        background-image: url(../assets/Img/unsplash_d3_cFMe97Ec.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background: rgba(0, 0, 0, 0.3); */
+    }
+    
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .flutterwave-image{
+        width: 100%;
+    }
+
+    .Hamburger{
+        display: none;
+    }
+    
+    .Menu{
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .Menu-two{
+        display: block;
+    }
+
+    .Menu-two ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .Menu-two ul li{
+        list-style: none;
+        color: #fff;
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+    }
+
+
+    .glass{
+        font-size: 20px;
+        margin-top: 8px;
+        margin-right: 15px;
+    }
+    .Worker{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    
+    .Innovation{
+        /* border: 2px solid red; */
+        width:50%;
+        margin-top: 70px;
+    }
+    
+    .Innovation-image{
+        width: 1%;
+    }
+    
+    .Innovation h1{
+        font-family: RubikRegular;
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .Innovation-img{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding:20px 30px;
+        margin: 20px 0px;
+    }
+    
+    .Innovation-img h3{
+        font-family: RubikRegular;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .Innovation p{
+        font-family: RubikRegular;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .Innovation-btn{
+        background-color: #FFD600;
+        border: none;
+        padding: 12px 25px;
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        border-radius: 18px;
+        color: #000000;
+        margin: 20px 0px;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+
+    .Worker-img{
+        width: 60%;
+    }
+
+    .Worker-image{
+        width: 100%;
+    }
+    
+    .Phlox-container{
+        width: 100%;
+        padding: 20px 20px 100px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Phlox-img{
+        width: 100%;
+        position: relative;
+        /* display: flex;
+        justify-content: center; */
+        padding: 40px 30px;
+        /* border: 2px solid red; */
+    }
+    .left-image{
+        width: 70%;
+        z-index: -1;
+    }
+    
+    .top-image{
+        width: 50%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10px;
+        right: 0px;
+    }
+    
+    .Phlox-heading{
+        /* border:  2px solid red; */
+        width: 100%;
+        margin-top: 50px;
+        padding: 20px;
+    }
+    
+    .Phlox-text{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .right-image{
+        width: 8%;
+    }
+    
+    .Phlox-text h3{
+        font-family: RubikRegular;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    
+    .Phlox-head h2{
+        font-family: RubikBold;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        margin: 15px 0px 40px;
+        width: 60%;
+        text-transform: capitalize;
+    }
+    
+    .Phlox-head p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin: 30px 0px;
+        width: 60%;
+    }
+    
+    .Phlox-vector{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0px;
+        padding: 0px 5px 0px 30px;
+    }
+    
+    .Phlox-vector-image{
+        width: 1%;
+        max-width: 10px;
+    }
+    
+    .Phlox-vector p{
+        font-family: RubikRegular;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        /* text-align: justified; */
+        color: #000;
+    }
+    
+    .Phlox-yellow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0px;
+        margin-top: 80px;
+    }
+    
+    .yellow{
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .yellow h3{
+        font-family: RubikBold;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFD600;
+    }
+    
+    .yellow p{
+        font-family: RubikRegular;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;    
+    }
+    
+    .Experience-container{
+        width: 100%;
+        background-color: #080F31;
+        padding: 80px 40px 60px;
+        
+    }
+
+    .Experience-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Experience-text p{
+        font-family: RubikRegular;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFD600; 
+        margin-bottom: 30px;   
+    }
+    
+    .Experience-text h2{
+        font-family: RubikRegular;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        width: 50%;
+    }
+    
+    .Experience-heading{
+        padding: 10px 0px 70px;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* flex-direction: column; */
+        gap: 40px 50px;
+    }
+    .Experience-head{
+        /* border: 2px solid red; */
+        border-top: 20px solid #212A54;
+        padding: 20px 0px 40px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #0C1957;
+    }
+
+    .news{
+        width: 40%;
+    }
+
+    .news1{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .fourty-image{
+        width: 45%;
+        
+    }
+    
+    .Experience-head h3{
+        font-family: RubikRegular;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+        margin: 20px 0px;
+    }
+    
+    .Experience-head p{
+        font-family: RubikRegular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .Member-container{
+        padding: 100px 20px 100px;
+        width: 100%;
+    }
+    
+    .Member-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .Member-img p{
+        font-family: RubikRegular;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        margin-top: 5px;
+    }
+    
+    .Member-contents h3{
+        font-family: RubikBold;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000;
+        margin: 20px 0px;
+        width: 30%;
+    }
+    
+    .construct{
+        /* border: 2px solid red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* flex-direction: column; */
+        gap: 30px 30px;
+        margin-top: 60px;
+        padding: 0px 30px;
+    }
+    
+    /* .man-text{
+        border: 2px solid greenyellow;
+    } */
+    
+    .man-text p{
+        font-family: RubikRegular;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        margin: 40px 0px 20px;
+    }
+    
+    .man-text h2{
+        font-family: RubikBold;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+        /* margin: 0px 0px 20px; */
+    }
+    
+    .Facebook{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 20px 0px;
+    }
+    
+    .pin-image{
+        width: 1.5%;
+    }
+    
+    .face-image{
+        width: 10%;
+    }
+    
+    .Affordable{
+        width: 100%;
+        height: 392px;
+        /* background-color: rgba(0, 0, 0, 0.9); */
+        background-image: url(/src/assets/Img/tractor.jpeg);
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* padding: 40px 20px; */
+        position: relative;
+        overflow: hidden;
+        /* border: 2px solid red; */
+    }
+    
+    .Overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* background-color: rgba(0,0,0, 0.4); */
+        background: #F5F5F57D;
+        padding: 40px 40px;
+    }
+    
+    .Affordable-text p{
+        font-family: RubikRegular;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+        text-transform: capitalize;
+        width: 65%;
+    }
+    
+    span{
+        font-family: RubikBold;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+    }
+    
+    .Affordable-img{
+        margin: 50px 0px 20px;
+    }
+    .wave-image{
+        width: 20%;
+    }
+    
+    .footer-wrapper{
+        width: 100%;
+        padding: 70px 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px 40px;
+    }
+
+    /* .footer-flutter{
+        border: 2px solid green;
+    } */
+    
+    .flutter{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .flutter-image{
+        width: 25%;
+    }
+    
+    .flutter{
+        margin: 0px 0px;
+    }
+    
+    /* .flutter-Constracture{
+        border: 2px solid green;
+    } */
+    
+    .flutter-Constracture h3{
+        font-family: RubikBold;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;    
+    }
+    
+    .flutter-Constracture h6{
+        font-family: RubikRegular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+        margin-top: 2px;
+    }
+    
+    .footer-flutter p{
+        font-family: RubikRegular;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #222B56;
+        margin-top: 30px;
+    }
+    
+    .Constracture-facebook{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .grid-image{
+        width: 15%;
+    }
+    
+    .Information-container{
+        /* border: 2px solid red; */
+        margin-top: 0px;
+    }
+    
+    .Information-link{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+        /* border: 2px solid green; */
+    }
+    
+    .Information-image{
+        width: 1.5%;
+    }
+    
+    .Information-link h3{
+        font-family: RubikRegular;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    
+    .Information-Users{
+        margin: 50px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .Information-img{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        /* border: 2px solid blue; */
+    }
+    
+    .one-image{
+        width: 4%;
+    }
+    
+    .Information-img p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+    }
+    
+    .Contact-container{
+        /* border: 2px solid red; */
+        margin-top: 0px;
+    }
+    
+    .Contact-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+        /* border: 2px solid green; */
+    }
+    
+    .Information-image{
+        width: 1.5%;
+    }
+    
+    .Contact-wrapper h3{
+        font-family: RubikRegular;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+    }
+    
+    .Contact-head{
+        margin: 50px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .Contact-img{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        /* border: 2px solid blue; */
+    }
+    
+    .one-image{
+        width: 4%;
+    }
+    
+    .Contact-img p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #222B56;
+    }
+    
+    .Newsletter-container{
+        /* border: 2px solid red; */
+        margin-top: 0px;
+    }
+    
+    .Newsletter-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+        /* border: 2px solid green; */
+    }
+    
+    .Newsletter-wrapper h3{
+        font-family: RubikRegular;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000;
+    }
+    
+    .Newsletter-container p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        color: #000000;
+        margin: 40px 0px 50px;
+    }
+    
+    .Email-input{
+        padding: 8px 15px;
+        width: 100%;
+        border-radius: 20px;
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: #F0F3FF;
+        border: none;
+        color: #222B5669;
+    }
+    
+    .Last-footer{
+        background: #222B56;
+        padding: 20px 10px;
+        margin-top: 40px;
+    }
+    
+    .Last-footer p{
+        font-family: RubikRegular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+    }
+}
+
